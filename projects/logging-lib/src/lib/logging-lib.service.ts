@@ -8,7 +8,7 @@ export class LoggingLibService {
   constructor() { }
 
   log(value: string) {
-    console.log(`Logging from Logger Service` + ' change change');
+    console.log(`Logging from Logger Service`);
     console.log(value);
   }
 }
